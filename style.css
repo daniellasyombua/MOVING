@@ -1,19 +1,26 @@
 .Moving_body
 {
     max-width: 100%;
-    background-color: rgb(205, 185, 223);
+    background-color: white;
     
 }
-
+.Moving_body a
+{
+    font-size: 20px;
+}
+#home
+{
+    color: rgb(207, 144, 27);
+}
 .reach_out
 {
     max-width: 100%;
     display: flex;
-    border: solid black;
+    padding-bottom: 0.5cm;
 }
 .phone_line
 {
-    border: solid black;
+   
     margin-left: 33cm;
 }
 .email{
@@ -22,10 +29,11 @@
 }
 .top
 {
+    margin-top: 1cm;
     max-width: 100%;
     display: flex;
-    border: solid black;
-    padding-left: 2.5cm;
+   
+    padding-left: 1cm;
 }
 .top>a {
         padding-left: 1cm;
@@ -37,7 +45,7 @@
     {
     position: absolute;
     left: 12cm;
-    border: 1px solid black;
+  
     padding: 1cm;
     padding-top: 1.3cm;
     padding-bottom: 1.3cm;
@@ -52,7 +60,7 @@
     padding: 1cm;
     padding-top: 1.3cm;
     padding-bottom: 1.3cm;
-    border: solid black;
+  
     border-radius: 3cm;
 }
 .get_started {
@@ -64,7 +72,7 @@
     background-position: center;
     text-align: center;
     position: relative; 
-    border: solid black;
+    
     
 }
 
@@ -107,27 +115,38 @@
     padding-right: 4cm;
     max-width: 100%;
     display: flex;
-    border: solid black;
+  
     margin-top: 2cm;
-    margin-top:5cm ;
+    padding-bottom: 1cm;
+    }
+.learn_about_us h2{
+    font-size: xx-large;
+    font-weight: 800;
+}
+.storage_div
+{
+    background-color: rgb(43, 43, 216);
+    color: white;
 }
 .riaad_history{
-    margin-top: 2cm;
+    margin-top: 10cm;
+}
+.logo img{
+    margin-left: 2cm;
 }
 .logo
 {
-    border: solid black;
     margin-top: 1cm;
-    padding-left: 3cm;
+    padding-left: 5cm;
 }
 .our_services
 {
-    border: solid black;
+   
     text-align: center;
 }
 .our_services a
 {
-    color: rgb(207, 144, 27);;
+    color: rgb(207, 144, 27);
 }
 .our_services h2
 {
@@ -136,7 +155,7 @@
 }
 .services_link
 {
-    border: solid black;
+  
     
 }
 .declutter_div
@@ -151,83 +170,216 @@
 .riaad_history
 {
     display: flex;
-    border: solid black;
+   
 }
 .riaad_since
 {
     width: 50%;
-    border: solid black;
+    padding-top: 0.5cm;
+   
 }
 .riaad_history{
     margin-top: 1cm;
-    border: solid black;
+  
     
 }
 .square
 {
     width:650px;
     height:500px;
-    border: 6px solid black;
+   
     background-color: none;
     position: absolute;
-    top: 28cm;
+    top: 27cm;
     left: 23cm;
 }
 #couple_img
 {
     width: 650px;
     height: 500px;
-    border: solid black;
+
 }
 #declutter_img
 {
     width: 650px;
     height: 500px;
-    border: solid black;
+ 
 }
 .icons-div
 {
     display: flex;
     max-width: 100%;
-    border: solid black;
+   
     text-align: center;
+    gap: 4cm;
+    padding-left: 3cm;
+    padding-right: 3cm;
+    margin-bottom: 1cm;
+    
+}
+.icons-div div{
+ 
+
+}
+.icons-div i
+{
+   
+    padding: 1.2cm;
+    padding-top: 1.5cm;
+    padding-bottom: 1.5cm;
+    border-radius: 15cm;
+}
+.icons-div h3
+{
+    font-size: 30px;
+}
+.icons-div p
+{
+    font-size: 20px;
+}
+.icons-div a
+{
+    font-size: 15px;
+}
+#videopic
+{
+    width: 5cm;
+    height: 3cm;
 }
 .work_with_clients
 {
     display: flex;
     max-width: 100%;
-    border: solid black;
+   
+    margin-bottom: 1cm;
+    gap: 4cm;
+    padding-left: 3cm;
+}
+.work_with_clients h2
+{
+    font-size: xx-large;
+    font-weight: 800;
+}
+.riaadverified
+{
+    position: absolute;
+    background-color: white;
+    top: 65cm;
+    left: 6cm;
+    padding: 1cm;
+}
+.question
+{
+    position: absolute;
+    top:81cm;
+    margin-left: 1cm;
+    color: white;
+}
+#whychooseimage
+{
+
+    width: 550px;
+    height: 15cm;
+    padding-right: 1cm;
+    padding-bottom: 2cm;
+    background-color: blue;
 }
 .client_video
 {
     display: flex;
+    gap: 2cm;
 }
 .whychoose
 {
     max-width: 100%;
     display: flex;
-    border: solid black;
-    height: 15cm;
-
+   
+    height: 19cm;
+    margin-bottom: 1cm;
+    gap: 3cm;
+    padding-left: 3cm;
+    padding-right: 3cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+     
 }
 .whychoose_img
 {
-    height: 15cm;
+  
+}
+#whychooseimage
+{
+    height: 18cm;
+}
+.whychoose i{
+    color: orange;
 }
 .stats
 {
-    text-align: center;
-    border: solid black;
-    padding-right: 3cm;
+    text-align: left;
+   
+    
+    width: 20cm;
+    padding-left: 3cm;
 }
-#book_online
+.stats a 
 {
-  border: solid black;
+    color: rgb(207, 144, 27);
 }
+.stats h2
+{
+    font-size: xx-large;
+}
+.stats p
+{
+    font-size: large;
+}
+.book_online
+{
+
+  text-align: center;
+  font-size: larger;
+}
+.book_online a
+{
+    color: rgb(207, 144, 27);
+}
+#playbutton
+{
+  
+    border-radius: 10cm;
+    padding-top: 1cm;
+    background-color: orange;
+}
+.play_video
+{
+    background-image: url(Images/couple_img.jpg);
+    background-size: cover; 
+    color: white; 
+    padding: 200px; 
+    background-position: center;
+    text-align: center;
+    position: relative; 
+   
+    padding-top: 8cm;
+    
+}
+
+.play_video::after {
+    content: ""; 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    top: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
 #video_img
 {
     max-width: 100%;
-    border: solid black;
+  
 }
 #couple_img
 {
@@ -238,60 +390,70 @@
 {
     max-width: 100%;
     display: flex;
-    border: solid black;
-        
+   
+    
+
+}
+.fill_form
+{
+  
+    max-width: 100%;
+    width: 50.3cm;
+    display: flex;
+    position: absolute;
+    background-color: yellow;
+    top: 93cm;
+    z-index: 2;
+
+}
+.book_nowlink
+{
+    width: 30cm;
+    background-color: rgb(243, 184, 74);
+    text-align: left;
+    padding-left:6cm ;
+    padding-top: 3cm;
+    padding-bottom: 3cm;
+    
+}
+.book_nowlink h3
+{
+    font-size: xx-large;
+    color: white;
+    font-weight: 800;
 }
 .book_form
 {
-    display: flex;
-    border: solid black;
     
+    display: flex;
+  
+    width: 70cm;
+    background-color: rgb(97, 97, 233);
+    padding-left: 1cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    gap: 2cm;
+}
+.book_form input
+{
+    width: 10cm;
+    height: 1.5cm;
+}
+#sendrequest
+{
+    background-color: orange;
 }
 #playbutton
 {
     padding: 3cm;
-}
-/* .play_video
-{
-    background-image: url(Images/couple_img.jpg);
-    background-size: cover; 
-        color: white; 
-        padding: 200px; 
-        background-position: center;
-        text-align: center;
-        position: relative; 
-        border: solid black;
-        
-    }
+    border: none;
     
-    .play_video::after {
-        content: ""; 
-        position: absolute; 
-        left: 0; 
-        right: 0; 
-        bottom: 0; 
-        top: 0; 
-        background-color: rgba(0, 0, 0, 0.5); 
-        z-index: 1; 
-    }
-} */
-
-
-.fill_form
-{
-    border: solid black;
-    padding-top: 3cm;
-    padding-bottom: 3cm;
-    max-width: 100%;
-    width: 40cm;
-    display: flex;
-    position: absolute;
 }
 
 .testimonials
 {
     max-width: 100%;
-    border: solid black;
+   
     text-align: center;
 }
 .testimonials a{
@@ -308,7 +470,7 @@
     max-width: 100%;
     display: flex;
     text-align: center;
-    border: solid black;
+   
     padding-left: 3cm;
     padding-right: 3cm;
 }
@@ -321,15 +483,15 @@
 }
 .customer_reviews
 {
-    border: solid black;
-    padding-top: 1cm;
-    padding-bottom: 1cm;
+   
+    padding-top: 2cm;
+    padding-bottom: 2cm;
 }
 
 .newsletter_signup
 {
     max-width: 100%;
-    border: solid black;
+   
     text-align: center;
 }
 .newsletter_signup a
@@ -346,9 +508,9 @@ color: rgb(207, 144, 27);
 {
     max-width: 100%;
     display: flex;
-    border: solid black;
+   
     padding-top: 1.5cm;
-    padding-bottom: 1.5cm;
+    padding-bottom: 1cm;
 }
 .subscribe_div p{
     font-size: x-large;
@@ -364,7 +526,7 @@ color: rgb(207, 144, 27);
 .news_blog
 {
     max-width: 100%;
-    border: solid black;
+  
     text-align: center;
 }
 .news_blog a{
@@ -377,12 +539,12 @@ color: rgb(207, 144, 27);
 
 .articles_div
 {
-    border: solid black;
     max-width: 100%;
     display: flex;
     padding-left: 3cm;
     padding-right: 3cm;
-    height: 15cm;
+    height: 13cm;
+    
 }
 .entertainment_img
 {
@@ -393,7 +555,7 @@ background-size: cover;
     background-position: center;
     text-align: center;
     position: relative; 
-    border: solid black;
+    
     text-align: left;
     
 }
@@ -411,7 +573,7 @@ background-size: cover;
 .entertainment_img h4 {
     position: relative; 
     z-index: 2;
-    font-size: 30px;
+    font-size: 25px;
 }
 .entertainment_img> h5{
     font-size: 15px;
@@ -429,8 +591,9 @@ background-size: cover;
     background-position: center;
     text-align: center;
     position: relative; 
-    border: solid black;
+   
     text-align: left;
+    margin-left: 1cm;
     
 }
 
@@ -447,7 +610,7 @@ background-size: cover;
 .choice_img h4 {
     position: relative; 
     z-index: 2;
-    font-size: 30px;
+    font-size: 25px;
 }
 .choice_img > h5{
     font-size: 15px;
@@ -465,8 +628,9 @@ background-size: cover;
     background-position: center;
     text-align: center;
     position: relative; 
-    border: solid black;
+    
     text-align: left;
+    margin-left: 1cm;
     
 }
 
@@ -483,7 +647,7 @@ background-size: cover;
 .movers_img h4 {
     position: relative; 
     z-index: 2;
-    font-size: 30px;
+    font-size: 25px;
 }
 .movers_img > h5{
     font-size: 15px;
@@ -495,20 +659,21 @@ background-size: cover;
 
 .discover_div
 {
-    border: solid black;
+    
     max-width: 100%;
     display: flex;
-    border: solid black;
+   
     padding: 2cm;
     background-color: rgb(230, 175, 75);
 }
 .discover_div h2
 {
     font-size: 250%;
+    color: white;
 }
 .discover_button_div
 {
-    border: solid black;
+    
     margin-left: 20cm ;
 }
 #discover_button
@@ -516,7 +681,9 @@ background-size: cover;
 
     width: 7cm;
     height: 2cm;
-    background-color: orange;
+    background-color:black;
+    color: white;
+    border: none;
 }
 
 .contacts_container
@@ -528,14 +695,14 @@ background-size: cover;
     background-position: center; 
     color: white;
     padding: 3cm;
-    border: solid black;
+    
 }
 
 
 .Contacts
 {
     
-    border: 1px solid black;
+    
     display: flex;
     border-bottom: none;
     font-size: larger;
@@ -580,6 +747,4 @@ flex: 1 1;
 border-bottom: 1px solid black;
 margin: auto;
 color: rgb(10, 133, 133);
-
-
 }
