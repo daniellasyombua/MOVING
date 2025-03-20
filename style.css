@@ -1,0 +1,585 @@
+.Moving_body
+{
+    max-width: 100%;
+    background-color: rgb(205, 185, 223);
+    
+}
+
+.reach_out
+{
+    max-width: 100%;
+    display: flex;
+    border: solid black;
+}
+.phone_line
+{
+    border: solid black;
+    margin-left: 33cm;
+}
+.email{
+    border: solid black;
+    margin-left: 5cm;
+}
+.top
+{
+    max-width: 100%;
+    display: flex;
+    border: solid black;
+    padding-left: 2.5cm;
+}
+.top>a {
+        padding-left: 1cm;
+        text-decoration: none;
+        color: black;
+        margin-left: 4cm;
+    }
+#mail
+    {
+    position: absolute;
+    left: 12cm;
+    border: 1px solid black;
+    padding: 1cm;
+    padding-top: 1.3cm;
+    padding-bottom: 1.3cm;
+    border-radius: 10cm;
+    top: 0.1cm;
+    
+    }
+#phone
+{
+    position: absolute;
+    left: 40cm;
+    padding: 1cm;
+    padding-top: 1.3cm;
+    padding-bottom: 1.3cm;
+    border: solid black;
+    border-radius: 3cm;
+}
+.get_started {
+    
+    background-image: url('Images/family.jpg');
+    background-size: cover; 
+    color: white; 
+    padding: 200px; 
+    background-position: center;
+    text-align: center;
+    position: relative; 
+    border: solid black;
+    
+}
+
+.get_started::after {
+    content: ""; 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    top: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.get_started h1 {
+    position: relative; 
+    z-index: 2;
+    font-size: 70px;
+}
+.get_started > h4{
+    font-size: 25px;
+    position: relative;
+    z-index: 2;
+    
+}
+.get_started > button{
+    position: relative;
+    border: none;
+    z-index: 2;
+    background-color: rgb(241, 167, 30);
+    color: white;
+    padding-top: 0.6cm;
+    padding-bottom: 0.6cm;
+    padding-left: 1.5cm;
+    padding-right: 1.5cm;
+}
+.learn_about_us
+{
+    padding-left: 4cm;
+    padding-right: 4cm;
+    max-width: 100%;
+    display: flex;
+    border: solid black;
+    margin-top: 2cm;
+    margin-top:5cm ;
+}
+.riaad_history{
+    margin-top: 2cm;
+}
+.logo
+{
+    border: solid black;
+    margin-top: 1cm;
+    padding-left: 3cm;
+}
+.our_services
+{
+    border: solid black;
+    text-align: center;
+}
+.our_services a
+{
+    color: rgb(207, 144, 27);;
+}
+.our_services h2
+{
+    font-size: 50px;
+    font-weight: 800;
+}
+.services_link
+{
+    border: solid black;
+    
+}
+.declutter_div
+{
+    margin-left: 4cm;
+    
+}
+#video.img
+{
+    max-width: 100%;
+}
+.riaad_history
+{
+    display: flex;
+    border: solid black;
+}
+.riaad_since
+{
+    width: 50%;
+    border: solid black;
+}
+.riaad_history{
+    margin-top: 1cm;
+    border: solid black;
+    
+}
+.square
+{
+    width:650px;
+    height:500px;
+    border: 6px solid black;
+    background-color: none;
+    position: absolute;
+    top: 28cm;
+    left: 23cm;
+}
+#couple_img
+{
+    width: 650px;
+    height: 500px;
+    border: solid black;
+}
+#declutter_img
+{
+    width: 650px;
+    height: 500px;
+    border: solid black;
+}
+.icons-div
+{
+    display: flex;
+    max-width: 100%;
+    border: solid black;
+    text-align: center;
+}
+.work_with_clients
+{
+    display: flex;
+    max-width: 100%;
+    border: solid black;
+}
+.client_video
+{
+    display: flex;
+}
+.whychoose
+{
+    max-width: 100%;
+    display: flex;
+    border: solid black;
+    height: 15cm;
+
+}
+.whychoose_img
+{
+    height: 15cm;
+}
+.stats
+{
+    text-align: center;
+    border: solid black;
+    padding-right: 3cm;
+}
+#book_online
+{
+  border: solid black;
+}
+#video_img
+{
+    max-width: 100%;
+    border: solid black;
+}
+#couple_img
+{
+    
+}
+
+.book_now
+{
+    max-width: 100%;
+    display: flex;
+    border: solid black;
+        
+}
+.book_form
+{
+    display: flex;
+    border: solid black;
+    
+}
+#playbutton
+{
+    padding: 3cm;
+}
+/* .play_video
+{
+    background-image: url(Images/couple_img.jpg);
+    background-size: cover; 
+        color: white; 
+        padding: 200px; 
+        background-position: center;
+        text-align: center;
+        position: relative; 
+        border: solid black;
+        
+    }
+    
+    .play_video::after {
+        content: ""; 
+        position: absolute; 
+        left: 0; 
+        right: 0; 
+        bottom: 0; 
+        top: 0; 
+        background-color: rgba(0, 0, 0, 0.5); 
+        z-index: 1; 
+    }
+} */
+
+
+.fill_form
+{
+    border: solid black;
+    padding-top: 3cm;
+    padding-bottom: 3cm;
+    max-width: 100%;
+    width: 40cm;
+    display: flex;
+    position: absolute;
+}
+
+.testimonials
+{
+    max-width: 100%;
+    border: solid black;
+    text-align: center;
+}
+.testimonials a{
+    color: rgb(207, 144, 27);
+}
+.testimonials h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+
+.customer_div
+{
+    max-width: 100%;
+    display: flex;
+    text-align: center;
+    border: solid black;
+    padding-left: 3cm;
+    padding-right: 3cm;
+}
+
+#customer
+{
+    width: 10%;
+    border-radius: 10cm;
+
+}
+.customer_reviews
+{
+    border: solid black;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+}
+
+.newsletter_signup
+{
+    max-width: 100%;
+    border: solid black;
+    text-align: center;
+}
+.newsletter_signup a
+{
+color: rgb(207, 144, 27);
+}
+.newsletter_signup h1
+{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.subscribe_div
+{
+    max-width: 100%;
+    display: flex;
+    border: solid black;
+    padding-top: 1.5cm;
+    padding-bottom: 1.5cm;
+}
+.subscribe_div p{
+    font-size: x-large;
+    padding-left: 15cm;
+}
+.subscribe_div button
+{
+    margin-left: 20cm;
+    width: 6cm;
+    height: 2cm;
+}
+
+.news_blog
+{
+    max-width: 100%;
+    border: solid black;
+    text-align: center;
+}
+.news_blog a{
+    color: rgb(207, 144, 27);
+}
+.news_blog h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.articles_div
+{
+    border: solid black;
+    max-width: 100%;
+    display: flex;
+    padding-left: 3cm;
+    padding-right: 3cm;
+    height: 15cm;
+}
+.entertainment_img
+{
+background-image:url(Images/entertainment_img.jpg) ;
+background-size: cover; 
+    color: white; 
+    padding: 200px; 
+    background-position: center;
+    text-align: center;
+    position: relative; 
+    border: solid black;
+    text-align: left;
+    
+}
+
+.entertainment_img::after {
+    content: ""; 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    top: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+.entertainment_img h4 {
+    position: relative; 
+    z-index: 2;
+    font-size: 30px;
+}
+.entertainment_img> h5{
+    font-size: 15px;
+    position: relative;
+    z-index: 1;
+    color: white;
+    
+}
+.choice_img
+{
+background-image: url(Images/choice_img.jpg);
+background-size: cover; 
+    color: white; 
+    padding: 200px; 
+    background-position: center;
+    text-align: center;
+    position: relative; 
+    border: solid black;
+    text-align: left;
+    
+}
+
+.choice_img::after {
+    content: ""; 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    top: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+.choice_img h4 {
+    position: relative; 
+    z-index: 2;
+    font-size: 30px;
+}
+.choice_img > h5{
+    font-size: 15px;
+    position: relative;
+    z-index: 1;
+    color: white;
+    
+}
+.movers_img
+{
+background-image: url(Images/movers_img.jpg);
+background-size: cover; 
+    color: white; 
+    padding: 200px; 
+    background-position: center;
+    text-align: center;
+    position: relative; 
+    border: solid black;
+    text-align: left;
+    
+}
+
+.movers_img::after {
+    content: ""; 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    top: 0; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+.movers_img h4 {
+    position: relative; 
+    z-index: 2;
+    font-size: 30px;
+}
+.movers_img > h5{
+    font-size: 15px;
+    position: relative;
+    z-index: 1;
+    color: white;
+    
+}
+
+.discover_div
+{
+    border: solid black;
+    max-width: 100%;
+    display: flex;
+    border: solid black;
+    padding: 2cm;
+    background-color: rgb(230, 175, 75);
+}
+.discover_div h2
+{
+    font-size: 250%;
+}
+.discover_button_div
+{
+    border: solid black;
+    margin-left: 20cm ;
+}
+#discover_button
+{
+
+    width: 7cm;
+    height: 2cm;
+    background-color: orange;
+}
+
+.contacts_container
+{
+    max-width: 100%;
+    background-image: url(Images/contactbackground.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    color: white;
+    padding: 3cm;
+    border: solid black;
+}
+
+
+.Contacts
+{
+    
+    border: 1px solid black;
+    display: flex;
+    border-bottom: none;
+    font-size: larger;
+
+}
+.Contacts div
+{
+    padding-left: 6cm;
+}
+#subscribe_btn
+{
+    background-color: orange;
+}
+#copyrighticon
+{
+    margin-left: 18cm;
+}
+
+#line_arrow
+{
+border: solid ;
+padding: 0.3cm;
+border-radius: 15cm;
+}
+#linetext
+{
+    color: aqua;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5cm;
+    font-size: larger;
+    padding-left: 4cm;
+    padding-right: 2cm;
+    
+}
+#linetext:before
+
+{
+content:"";
+flex: 1 1;
+border-bottom: 1px solid black;
+margin: auto;
+color: rgb(10, 133, 133);
+
+
+}
